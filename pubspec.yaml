@@ -1,0 +1,30 @@
+name: oyun_poliomino_yerlestirme
+description: "Beşli Yerleştirme – dikdörtgeni beşli parçalarla eksiksiz doldur. Blok Oyunları merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 6080e4b00e322e2191d0358100b4b48b4a1fc883
+  oyun_blok_doldurma:
+    git:
+      url: https://github.com/taktemurr-ops/oyun-blok-doldurma
+      ref: 21525661aadebcfb8413e2f0f3acc634f0a1346b
+
+dependency_overrides:
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 6080e4b00e322e2191d0358100b4b48b4a1fc883
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0

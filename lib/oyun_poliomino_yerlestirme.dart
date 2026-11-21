@@ -79,7 +79,7 @@ final besliConfig = GameConfig(
       'Lấp hình chữ nhật bằng mảnh năm ô!',
       'Punuin ang parihaba ng limang-kahong piraso!',
     ],
-  seedColor: const Color(0xFF43A047),
+  seedColor: const Color(0xFF4E8A3E),
   icon: Icons.dashboard_rounded,
   rules: PentoRules(),
   buildPlay: (ctx) => FillView(ctx: ctx),

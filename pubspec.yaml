@@ -12,17 +12,17 @@ dependencies:
   studio_core:
     git:
       url: https://github.com/taktemurr-ops/studio-core
-      ref: f9f1c6788285e91a0abd3b87f1c36579a379d5c4
+      ref: d10d0d583eb20bc598d3f596d20b93eb65e49102
   oyun_blok_doldurma:
     git:
       url: https://github.com/taktemurr-ops/oyun-blok-doldurma
-      ref: 8b53cbe75af1a83bbd0037972f8d5525e24a4123
+      ref: 7dcf2d921c9cd6d1c7cc495704ac66c4d23262bc
 
 dependency_overrides:
   studio_core:
     git:
       url: https://github.com/taktemurr-ops/studio-core
-      ref: f9f1c6788285e91a0abd3b87f1c36579a379d5c4
+      ref: d10d0d583eb20bc598d3f596d20b93eb65e49102
 
 dev_dependencies:
   flutter_test:

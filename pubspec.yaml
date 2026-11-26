@@ -16,7 +16,7 @@ dependencies:
   oyun_blok_doldurma:
     git:
       url: https://github.com/taktemurr-ops/oyun-blok-doldurma
-      ref: 7dcf2d921c9cd6d1c7cc495704ac66c4d23262bc
+      ref: cdfa2e5f4fa92853b8b4a3002864145df2b051f1
 
 dependency_overrides:
   studio_core:
